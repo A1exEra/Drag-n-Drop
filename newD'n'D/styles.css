@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  background: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+.container {
+  padding: 20px;
+  margin: 1rem;
+  border-radius: 10px;
+  background: linear-gradient(to right, #42275a, #734b6d);
+  min-height: 100px;
+}
+.draggable {
+  cursor: pointer;
+  color: rgb(62, 50, 49);
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: 20px 5px;
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.5s;
+  background: linear-gradient(to right, #dd5e89, #f7bb97);
+}
+.draggable:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.dragging {
+  opacity: 0.5;
+}
+.dropzone {
+  min-height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 1rem;
+  border: 3px solid #333;
+}
